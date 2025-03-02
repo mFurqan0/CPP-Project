@@ -18,4 +18,6 @@ int main() {
 	cout << "SUBTRACTION:" << Subtraction << "\n" ;
 	cout << "MULTIPLICATION:" << Multiplication << "\n" ;
 	cout << "DIVISION:" << Division << "\n" ;
+
+	return 0;
 }
