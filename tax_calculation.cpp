@@ -12,12 +12,18 @@ int main() {
 
     if(status == "single") {
         double tax_rate;
-        if(salary >= 372951)       tax_rate = 35.0;
-        else if(salary >= 171551)  tax_rate = 30.0;
-        else if(salary >= 82251)   tax_rate = 25.0;
-        else if(salary >= 33951)   tax_rate = 20.0;
-        else if(salary >= 8351)    tax_rate = 15.0;
-        else                       tax_rate = 10.0;
+        if(salary >= 372951)       
+            tax_rate = 35.0;
+        else if(salary >= 171551) 
+            tax_rate = 30.0;
+        else if(salary >= 82251)   
+            tax_rate = 25.0;
+        else if(salary >= 33951)   
+            tax_rate = 20.0;
+        else if(salary >= 8351)    
+            tax_rate = 15.0;
+        else                       
+        tax_rate = 10.0;
         
         double tax = salary * (tax_rate / 100);
         double take_home = salary - tax;
@@ -28,12 +34,18 @@ int main() {
     }
     else if(status == "married") {
         double tax_rate;
-        if(salary >= 372951)      tax_rate = 35.0;
-        else if(salary >= 208851) tax_rate = 30.0;
-        else if(salary >= 137051) tax_rate = 25.0;
-        else if(salary >= 67901)  tax_rate = 20.0;
-        else if(salary >= 16701)  tax_rate = 15.0;
-        else                      tax_rate = 10.0;
+        if(salary >= 372951)      
+            tax_rate = 35.0;
+        else if(salary >= 208851) 
+            tax_rate = 30.0;
+        else if(salary >= 137051) 
+            tax_rate = 25.0;
+        else if(salary >= 67901)  
+            tax_rate = 20.0;
+        else if(salary >= 16701)  
+            tax_rate = 15.0;
+        else                      
+        tax_rate = 10.0;
         
         double tax = salary * (tax_rate / 100);
         double take_home = salary - tax;

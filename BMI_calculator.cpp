@@ -30,5 +30,5 @@ int main() {
 	{
 		cout << "\nObese";
 	}
-
+    return 0;
 }
