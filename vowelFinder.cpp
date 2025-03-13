@@ -17,11 +17,11 @@ int main() {
 			
 			
 	if(lowerLetter=='a'||lowerLetter=='e'||lowerLetter=='i'||lowerLetter=='o'||lowerLetter=='u') {
-		cout << "The Entered Letter" << ' ' << letter << ' ' << "is a vowel" ;	
+		cout << "The Entered Letter " << letter   << " is a vowel" ;	
 	}
 	else
 	{
-		cout << "The Entered Letter" << ' ' << letter << ' ' << "is a consonant" ;
+		cout << "The Entered Letter " << letter << " is a consonant" ;
 	}
 
 	return 0;
