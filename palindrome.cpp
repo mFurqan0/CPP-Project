@@ -18,7 +18,7 @@ int main() {
     if(original == reversed) {
         cout << "Given number is a palindrome number";
     } else {
-        cout << "Given number is not a palindrome number";
+        cout << "Given number is a consonant number";
     }
     
     return 0;
