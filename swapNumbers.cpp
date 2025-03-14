@@ -9,7 +9,7 @@ int main()
 	
 	swap = var1;
 	var1 = var2;
-	var2 = swap;
+	var2 = swap;  
 	
 	cout << "\nAfter swapping:";
 	cout << "\nvar1=" << var1 ;
