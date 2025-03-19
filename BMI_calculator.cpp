@@ -5,7 +5,8 @@ int main() {
 	double weight , height , BMI;
 	
 	cout << "Enter your weight in kg:";
-	cin >> weight;
+	cin >> weight; 
+	
 	
 	cout << "Enter your height in meters";
 	cin >> height ;
