@@ -19,6 +19,7 @@ int main() {
     if(even_num.empty()) {
         cout << "0"; }
     else {
-        cout << "result is: " << even_num; }    
-    
+        cout << "result is: " << even_num; } 
+
+    return 0;
 }
