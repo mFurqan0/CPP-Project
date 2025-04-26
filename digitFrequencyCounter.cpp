@@ -9,7 +9,7 @@ int main() {
 
     int original_num = num;
 
-    for (int i = 0; i < 10; i++) {
+    for (int i = 1; i <= 10; i++) {
         int count = 0;
         num = original_num;
 
