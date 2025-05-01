@@ -24,7 +24,7 @@ int main() {
         return 0;
     }
     
-    for(int i=3 ; i <= sqrt(number);i+2) {
+    for(int i=3 ; i <= sqrt(number);i+=2) {
         if(number%i==0) {
             is_prime = false;
             break;
